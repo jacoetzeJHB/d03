@@ -16,7 +16,7 @@ void	ft_putchar (char c);
 {
 	char i;
 
-	i = '0';
+	i = 0;
 	while (str[i] != '\0')
 	{
 		ft_putchar(str[i++]);
